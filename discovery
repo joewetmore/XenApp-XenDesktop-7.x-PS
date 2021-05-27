@@ -1,0 +1,11 @@
+asnp citrix*
+Start-Transcript EnvironmentBackup.txt
+Get-BrokerController 
+Get-command get-*servicestatus 
+Get-LogDatastore 
+Get-MonitorDatastore 
+Get-BrokerDbconnection 
+Get-ConfigSite 
+Get-SfCluster 
+Get-BrokerCatalog 
+Stop-Transcript
